@@ -1,0 +1,126 @@
+.top-10{
+    top: 10%;
+}
+
+.top-20{
+    top: 20%;
+}
+.top-50{
+    top: 50%;
+}
+.z-10{
+    z-index: 10;
+}
+.top-7{
+    top: 7%;
+}
+
+.left-50{
+    left: 50%;
+}
+.w-50{
+    width: 50px
+}
+.h-50{
+    height: 50px
+}
+.w-500{
+width: 500px
+}
+
+.h-500{
+    height: 500px
+}
+.w-100px{
+    width: 100px
+}
+.h-100px{
+    height: 100px
+}
+
+.w-50P{
+    width: 50%
+} 
+.h-50P{
+    height: 50%
+}
+
+.rounded-full{
+    border-radius: 50%;
+}
+.translate-half {
+    transform: translate(-50%, -50%)
+}
+
+.absolute
+{
+    position: absolute
+}
+
+.w-80{
+    width: 80%
+}
+
+.d-flex{
+    display: flex;
+}
+
+.w-70P{
+    width: 70%;
+}
+.top-20P{
+    top: 20%;
+}
+
+.w-500px{
+    width: 500px;
+}
+.h-500px{
+    height: 500px;
+}
+.h-100vh{
+    height: 100vh
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.carousel-control-next
+,.carousel-control-prev{
+    /* position: absolute;
+    left: 5% !important; */
+    /* background-color: aquamarine; */
+    width: 67%;
+}
+.top-15P{
+    top: 15%;
+}
+.w-100P{
+    width: 100%
+}
+
+.h-100P{
+    height: 100%;
+}
+
+.border-gradient {
+    border-image: linear-gradient(to black, gray 0%, white 100%) 1;
+    /* border-radius: 5px; this doesn't work */
+    /* border-width: 4px; */
+    border-style: solid;
+    /* padding: 5px; */
+  }
+
+
+.items-center{
+align-items: center
+}
+
+.rounded-full-sides{
+    /* border-radius:5%; */
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
