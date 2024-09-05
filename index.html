@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
-<body class="relative">
-
+<body>
+    <section class="relative">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg position-sticky top-15P z-10">
+    <nav class="navbar navbar-expand-lg position-sticky top-10P z-10">
         <div class="container">
             <div class="top-50 left-50 translate-half absolute mx-auto border border border-secondary rounded-full-sides py-2 px-4 bg-white mx-auto flex w-70P d-flex justify-between items-center">
           <a class="navbar-brand" href="#">Cartzilla</a>
@@ -44,9 +44,6 @@
                     </a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">
-
-
-
                     </a></li>
                   </ul>
               </li>
@@ -79,14 +76,19 @@
 
 
     <!-- Navbar -->
-
-
+    
     <!-- hero section -->
-    <div id="carouselExample" class="carousel slide">
-        <div class="flex items-center justify-center items-center w-80vh mx-auto">
-        <div class="carousel-inner">
+    <div id="carouselExample" class="carousel slide ">
+
+      <div class="flex flex-col justify-between items-center h-100vh w-80P relative mx-auto w-80vw ">
+        <div class="flex justify-center align-items-center h-full absolute top-25P left-50P -translate-50P w-50P text-center">
+            <h2 class="text-center fsz-3rem">
+              Everything You Need for <br> a Modern Interior
+            </h2>
+        </div>
+          <div class="carousel-inner relative">
             <div class="d-flex justify-center items-center h-100vh">
-            <div class="d-flex justify-center items-center mx-auto w-500px h-500px rounded-full  overflow-hidden">
+            <div class="d-flex justify-center items-center mx-auto w-500px h-500px rounded-full overflow-hidden">
           <div class="carousel-item active">
             <img src="./assets/images/01.png" class="d-block w-100 object-cover" alt="...">
           </div>
@@ -104,22 +106,26 @@
         
         
         </div>
+      
     </div>
+  
+  </div>
 
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <div class="p-3 w-50px h-50px border-gradient  border border-3 rounded-full d-flex justify-center items-center ">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
-        </div>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <div class="p-3 w-50px h-50px border-gradient  border border-3 rounded-full d-flex justify-center items-center border-gradient">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-        </div>
-        <span class="visually-hidden">Next</span>
-        </button>
+       
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <div class="p-3 w-50px h-50px border-gradient  border border-3 rounded-full d-flex justify-center items-center ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+  </div>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <div class="p-3 w-50px h-50px border-gradient  border border-3 rounded-full d-flex justify-center items-center border-gradient">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+  </div>
+  <span class="visually-hidden">Next</span>
+  </button>
       </div>
- 
+    </section>
     
 
 

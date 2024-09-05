@@ -86,12 +86,37 @@ width: 500px
     justify-content: space-between;
 }
 
+.-transform-translate-half{
+    transform: translate(-50%, -50%);
+}
+.top-30{
+    top: 30%;
+}
+.top-25{
+    top: 25%;
+}
+.top-35{
+    top: 35%;
+}
+.top-40{
+    top: 40%;
+}
 .carousel-control-next
 ,.carousel-control-prev{
     /* position: absolute;
     left: 5% !important; */
     /* background-color: aquamarine; */
-    width: 67%;
+    /* width: 67%; */
+    width: 40% !important
+}
+.fsz-3rem{
+    font-size: 3.5rem;
+}
+.position-absolute{
+    position: absolute;
+}
+.translateX-half{
+    transform:translateX(-50%);
 }
 .top-15P{
     top: 15%;
@@ -99,11 +124,36 @@ width: 500px
 .w-100P{
     width: 100%
 }
-
+.w-full{
+    width: 100%;
+}
+.h-50vh{
+    height: 50vh;
+}
+.w-50P{
+    width: 50%;
+}
+.left-50P{
+    left: 50%;
+}
 .h-100P{
     height: 100%;
 }
-
+.right-50P{
+    right: 50%;
+} 
+.top-25P{
+    top: 25%;
+}
+.top-50P{
+    top: 50%;
+}
+.top-10P{
+    top: 10%;
+}
+ .-translate-50P{
+    transform:translate(-50%, -50%);
+}
 .border-gradient {
     border-image: linear-gradient(to black, gray 0%, white 100%) 1;
     /* border-radius: 5px; this doesn't work */
